@@ -78,6 +78,7 @@ full = [
     "request-id",
     "sensitive-headers",
     "set-header",
+    "set-host",
     "set-status",
     "timeout",
     "trace",
@@ -102,6 +103,7 @@ request-id = ["uuid"]
 sensitive-headers = []
 set-header = []
 set-status = []
+set-host = []
 timeout = ["dep:http-body", "tokio/time"]
 trace = ["dep:http-body", "tracing"]
 util = ["tower"]

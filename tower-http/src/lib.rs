@@ -324,6 +324,9 @@ pub mod catch_panic;
 #[cfg(feature = "set-status")]
 pub mod set_status;
 
+#[cfg(feature = "set-host")]
+pub mod set_host;
+
 #[cfg(feature = "timeout")]
 pub mod timeout;
 
